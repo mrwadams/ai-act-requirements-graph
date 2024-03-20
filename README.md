@@ -1,22 +1,22 @@
-# AI Security Controls Graph
+# EU AI Act Requirements Graph
 
-Welcome to the AI Security Controls Graph repository! This project provides an interactive way to explore the OWASP AI Security Threats and Controls Navigator using a graph database. The graph visualisation makes it easier to understand the relationships between different controls, their parent categories, and more.
+Welcome to the EU AI Act Requirements Graph repository! This project provides an interactive way to explore the [EU AI Act](https://artificialintelligenceact.com/)'s requirements for Providers of High Risk AI Systems as a graph database. The graph visualisation makes it easier to understand the relationships between different requirements, their parent articles, and more.
 
 ## Features
 
-- Interactive graph visualisation of the OWASP AI Security Threats and Controls Navigator
+- Interactive graph visualisation of the requirements from the EU AI Act
 - Zoom, pan, and click on nodes to view details
 - Search functionality to find specific nodes
-- Subgraphs focusing on specific aspects of the AI security landscape
+- Subgraphs focusing on specific aspects of the AI regulatory landscape
 - Attractive color scheme for easy identification of node types
 
 ## Getting Started
 
-To get started with the AI Security Controls Graph, follow these steps:
+To get started with the AI Act Requirements Graph, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/mrwadams/ai-security-controls-graph.git
+   git clone https://github.com/mrwadams/ai-act-requirements-graph.git
    ```
 
 2. Open the `AI_Act_Requirements_Graph.ipynb` notebook in Google Colab using the <a target="_blank" href="https://colab.research.google.com/github/mrwadams/ai-act-requirements-graph/blob/main/AI_Act_Requirements_Graph.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> button.
@@ -29,11 +29,10 @@ To get started with the AI Security Controls Graph, follow these steps:
    - Click on a node to view its details in the sidebar
    - Use the search bar to find specific nodes
 
-5. Explore the subgraphs to gain insights into specific aspects of the AI security landscape, such as:
-   - Controls that belong to multiple groups
-   - Groups that contain the most controls
-   - Categories and the distribution of controls within them
-   - The relationship between control types and groups
+5. Explore the subgraphs to gain insights into specific aspects of the AI regulatory landscape, such as:
+   - The specific requirements that fall under a given Article
+   - Nodes (requirements) that are connected by specific relationship types such as "REQUIRES" or "SEE_ALSO"
+   - Identifying key requirements by analysing their degree of centrality in the graph
 
 ## Contributing
 
@@ -53,7 +52,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- The [OWASP AI Exchange](https://owasp-ai-exchange.web.app/) for providing the data used in this project.
+- [Phil Lee](https://www.linkedin.com/in/phillee77/) for his inspiring visual of the Act's requirements.
 - The [yFiles for Jupyter Graphs](https://www.yworks.com/products/yfiles-graphs-for-jupyter) library for enabling the interactive graph visualisations.
 
-We hope you find the AI Security Controls Graph useful in exploring and understanding the AI security landscape!
+I hope you find the AI Act Requirements Graph useful in exploring and understanding the AI regulatory landscape!
