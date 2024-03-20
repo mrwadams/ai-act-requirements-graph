@@ -19,7 +19,7 @@ To get started with the AI Security Controls Graph, follow these steps:
    git clone https://github.com/mrwadams/ai-security-controls-graph.git
    ```
 
-2. Open the `AI_Act_Requirements_Graph.ipynb` notebook in Google Colab using the <a target="_blank" href="https://colab.research.google.com/github/mrwadams/ai-security-controls-graph/blob/main/AI_Act_Requirements_Graph.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> button.
+2. Open the `AI_Act_Requirements_Graph.ipynb` notebook in Google Colab using the <a target="_blank" href="https://colab.research.google.com/github/mrwadams/ai-act-requirements-graph/blob/main/AI_Act_Requirements_Graph.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> button.
 
 3. Run the notebook cells in order to generate the graph visualisations.
 
